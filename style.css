@@ -6,7 +6,5 @@ body {
 div {
     margin:  0 5px;
     border: 1px solid black;
-    height: 50px;
-    width: 50px;
     text-align: center;
 }

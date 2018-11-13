@@ -1,13 +1,11 @@
 window.onload = function() {
     for (let i = 1; i <= 20; i ++) {
-        const twentyDivs = document.createElement('div');
-        twentyDivs.style.height = "50px";
-        twentyDivs.style.width = "50px";
-        twentyDivs.style.backgroundColor = randomColor();
-        document.body.appendChild(twentyDivs);
-        const number = [i];
-        twentyDivs.className = "div" + number;
-        twentyDivs.innerText = number;
+        const createDiv = document.createElement('div');
+        createDiv.style.height = "50px";
+        createDiv.style.width = "50px";
+        createDiv.style.backgroundColor = randomColor();
+        createDiv.innerText = i;
+        document.body.append(createDiv);
     }
 }
 
